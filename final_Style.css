@@ -1,0 +1,102 @@
+.header{
+    background-color:#859992;
+    height : 100px;
+}
+header{
+    
+    left:10px; top: 10px; bottom : 0;
+    z-index: 1;
+}
+main {
+    background: #f2f4f7;
+    min-height: 700px;
+  }
+.main-container{
+    margin: 0 auto;
+    width:969px;
+    left:20%; top : 0;
+    border: 1px;
+}
+
+
+/* PC 배너1 스타일 */
+.floBanPc1 {
+    position: fixed;
+    top: 128px; /* 윗쪽 끝에서부터의 거리 */
+    right: 0;
+    z-index: 99;
+}
+.font_big_02{ font-size : 12px; }
+.font_big{ font-size: 2em;}
+.font_italic{ font-style: italic;}
+.font_bold{font-weight: bold;}
+.font_center{text-align:center;}
+.font_color{color:white;}
+
+.aside01{
+
+    border: 1px solid #cccccc;
+    width:5cm;
+    margin : 0 auto;
+    
+}
+/*aside*/
+.box {
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin : 0 auto;
+    
+}
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aside01{
+    background:#f2f4f7 ;
+    position: fixed;
+    left:10px; top: 200px; bottom : 20%;
+    width: 200px;
+    border: none;
+}
+
+.aside_items_02 ul > li {
+    display: inline-block; /* li 수평정렬하는 방법 */
+    margin-left: 8px;
+  }
+
+  .text_bold-13 {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  li > a {
+    text-decoration: none;
+    color: #888;
+  }
+  div >p > a{
+    text-decoration: none;
+    color: black;
+  }
+ .article_01{
+    padding : 20px;
+    border-width: 2px;
+    border-style: none none none dashed;
+ }
+
+ .ac_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position:50% 50%;
+    margin: 0 5%;
+  }
+  .bc_img{
+    max-width: 100%;
+    height: auto !important;
+    object-position:50% 50%;
+    margin: 0 5%;
+  }
